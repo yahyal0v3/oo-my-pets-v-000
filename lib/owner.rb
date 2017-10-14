@@ -8,7 +8,6 @@ class Owner
   @@all = []
 
   def initialize(name)
-    binding.pry
     @name = name
     @species = "human"
     @@all << self
