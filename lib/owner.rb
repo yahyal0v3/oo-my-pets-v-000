@@ -30,7 +30,17 @@ class Owner
 
   def buy_fish(name)
     fish = Fish.new(name)
-    self.pets 
+    self.pets
+  end
+
+  def buy_cat(name)
+    fish = Cat.new(name)
+    self.pets
+  end
+
+  def buy_dog(name)
+    fish = Dog.new(name)
+    self.pets
   end
 
 end
