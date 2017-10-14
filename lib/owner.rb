@@ -58,13 +58,16 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
     self.pets.each do |species, pets|
       pets.each do |instance|
         instance.mood = "nervous"
       end
     end
     self.pets = {fishes: [], cats: [], dogs: []}
+  end
+
+  def list_pets
+
   end
 
 end
