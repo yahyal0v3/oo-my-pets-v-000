@@ -8,7 +8,7 @@ class Fish
   end
 
   def name
-    @name.dub
+    @name.dub.freeze
   end
 
 end
