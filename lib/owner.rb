@@ -63,6 +63,7 @@ class Owner
         instance.mood = "nervous"
       end
     end
+    self.pets = {fishes: [], cats: [], dogs: []}
   end
 
 end
