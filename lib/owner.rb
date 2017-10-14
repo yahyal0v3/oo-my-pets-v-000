@@ -14,10 +14,6 @@ class Owner
     @@all
   end
 
-  def self.all
-    @@all.length
-  end
-
   def self.reset_all
     self.all.clear
   end
